@@ -21,4 +21,5 @@ sound, along with reporting their energy level.
 doesn't have enough energy to play they say "Monkey is too tired".
 10. The jungle contains several types of food; meat, fish, bugs and grain.
 11. Tigers can't eat grain because they have sensitive digestive systems.
-12. Bonus Item: The jungle can have each animal perform a random activity o
+12. Bonus Item: The jungle can have each animal perform a random activity out of the ones possible for
+that animal. Include Unit tests if you would like to do so.
