@@ -12,14 +12,14 @@ public class Tiger extends Animal {
     @Override
     public void makeNoise() {
         super.makeNoise();
-        System.out.println("The Tiger roars, and has energy " + energy);
+        System.out.println("The Tiger roars.");
     }
 
     @Override
     public void eat(FoodTypes foodType) {
         if(foodType != FoodTypes.GRAIN) {
             super.eat(foodType);
-            System.out.println("The Tiger, and has energy " + energy);
+            System.out.println("The Tiger eats.");
         } else {
             System.out.println("The Tiger wants to eat, but it can't eat grains!");
         }
@@ -28,7 +28,7 @@ public class Tiger extends Animal {
     @Override
     public void sleep() {
         energy += 5;
-        System.out.println("The Tiger takes a nap, and has energy " + energy);
+        System.out.println("The Tiger takes a nap.");
     }
 
     @Override

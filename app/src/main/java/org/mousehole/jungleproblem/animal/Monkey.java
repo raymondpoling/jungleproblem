@@ -12,19 +12,19 @@ public class Monkey extends Animal {
     @Override
     public void makeNoise() {
         energy -= 4;
-        System.out.println("The Monkey ooks, and has energy " + energy);
+        System.out.println("The Monkey ooks.");
     }
 
     @Override
     public void eat(FoodTypes foodType) {
         energy += 2;
-        System.out.println("The Monkey eats, and has energy " + energy);
+        System.out.println("The Monkey eats.");
     }
 
     @Override
     public void sleep() {
         super.sleep();
-        System.out.println("The Monkey takes a nap, and has energy " + energy);
+        System.out.println("The Monkey takes a nap.");
     }
 
     @Override

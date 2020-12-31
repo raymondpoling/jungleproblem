@@ -12,19 +12,19 @@ public class Snake extends Animal {
     @Override
     public void makeNoise() {
         super.makeNoise();
-        System.out.println("The snake goes hiss, and has energy " + energy);
+        System.out.println("The snake goes hiss.");
     }
 
     @Override
     public void eat(FoodTypes foodType) {
         super.eat(foodType);
-        System.out.println("The Snake eats, and has energy " + energy);
+        System.out.println("The Snake eats.");
     }
 
     @Override
     public void sleep() {
         super.sleep();
-        System.out.println("The snake takes a nap, and has energy " + energy);
+        System.out.println("The snake takes a nap.");
     }
 
     @Override

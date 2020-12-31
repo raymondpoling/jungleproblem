@@ -20,16 +20,7 @@ public abstract class Animal {
     public void sleep() {
         energy = energy + 10;
     }
-
-    public void randomAct() {
-        int select = rand.nextInt(3);
-        switch(select) {
-            case 0: this.makeNoise();
-            case 1: this.eat(FoodTypes.getRandomType());
-            case 2: this.sleep();
-        }
-    }
-
+    
     public int getEnergy() {
         return energy;
     }
